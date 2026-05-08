@@ -1,0 +1,14 @@
+- name: "arunkumar"
+  dob: "02-08-2000"
+  mobile number: 1234567890
+  addresses:
+  - flat: 01
+    streeet: "marathahalli"
+    city: "bengaluru"
+    type: "perment"
+
+  - flat: 01
+    streeet: "marathahalli"
+    city: "bengaluru"
+    type: "current"
+    

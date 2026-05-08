@@ -1,0 +1,40 @@
+<students>
+    <student>
+        <name>Malli Arunkumar</name>
+        <dob>02-08-2000</dob>
+        <email>malliarun72@gmail.com</email>
+        <address>
+            <permentaddress>
+                <flat>1-92</flat>
+                <street>tirupathi</street>
+                <city>tirupathi</city>
+            </permentaddress>
+            <currentaddress>
+                <flat>10</flat>
+                <street>marathahalli</street>
+                <city>bangalore</city>
+            </currentaddress>
+
+        </address>
+
+
+
+    </student>
+
+    <student>
+        <name>Malli Arjun</name>
+        <dob>02-09-2000</dob>
+        <email>malliarun72@gmail.com</email>
+        <address>
+            <permentaddress>
+                <flat>1-92</flat>
+                <street>tirupathi</street>
+                <city>tirupathi</city>
+            </permentaddress>
+            <currentaddress>
+                <flat>10</flat>
+                <street>marathahalli</street>
+                <city>bangalore</city>
+            </currentaddress>
+
+        </address

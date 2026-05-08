@@ -1,0 +1,48 @@
+{
+    "students":[
+        {
+            "firstname": "malli arunkumar",
+            "dob":"02-08-2000",
+            "address": [
+                {
+                    "type": "perm",
+                    "flat": "104,"
+                    "street": "marathalli",
+                    "city": "bengaluru",
+
+                },
+                {
+                    "type": "current",
+                    "flat": "104,"
+                    "street": "marathalli",
+                    "city": "bengaluru",
+
+                },
+
+            ]
+            "skills": ["java","deveops","cloud"]
+        },
+        {
+            "firstname": "kumar",
+            "dob":"02-08-2000",
+            "address": [
+                {
+                    "type": "perm",
+                    "flat": "104,"
+                    "street": "marathalli",
+                    "city": "bengaluru",
+
+                },
+                {
+                    "type": "current",
+                    "flat": "104,"
+                    "street": "marathalli",
+                    "city": "bengaluru",
+
+                },
+
+            ]
+            "skills": ["java","deveops","cloud"]
+        }
+    ]
+}
