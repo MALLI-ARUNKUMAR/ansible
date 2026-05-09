@@ -7,5 +7,5 @@
   tasks:
     - name: print variables
       ansible.builtin.debug:
-        msg: " iam is {{ iam }}, role is: {{ DEVSECOPS WITH AWS }} "
+        msg: " iam is {{ iam }}, role is: {{ role }} "
        
