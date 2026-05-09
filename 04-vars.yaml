@@ -1,0 +1,11 @@
+- name: play level variables
+  hosts: local
+  connection: local
+  vars:
+    iam: "malli arunkumar"
+    role: "DEVSECOPS WITH AWS"
+  tasks:
+    - name: print variables
+      ansible.builtin.debug:
+        msg: "iam is {{ iam }},role is{{ DEVSECOPS WITH AWS }}"
+       
