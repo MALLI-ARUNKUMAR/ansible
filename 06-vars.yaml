@@ -1,0 +1,14 @@
+- name: play level variables #task level variables
+  hosts: local
+  connection: local
+  vars_files:
+  - course.yaml
+  
+    
+  tasks:
+    - name: print variables
+      vars: 
+        iam: "arunkumar"
+      ansible.builtin.debug:
+        msg: " my name is {{ iam }}, role is: {{ role }} "
+       
