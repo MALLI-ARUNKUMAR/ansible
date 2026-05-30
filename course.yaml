@@ -1,2 +1,3 @@
  iam: "malli "
  role: "DEVSECOPS WITH AWS"
+ NAME: "Ansible from file"
