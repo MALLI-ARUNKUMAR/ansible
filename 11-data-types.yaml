@@ -6,7 +6,7 @@
     DURATION: 2
     IS_LIVE: TRUE
     DETAILS:
-      MONTHS:4
+      MONTHS: 4
       TRAINER: "MALLI ARUNKUMAR"
     TOPICS:
       - linux
