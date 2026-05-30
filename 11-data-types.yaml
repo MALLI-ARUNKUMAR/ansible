@@ -1,0 +1,28 @@
+- name: datatypes
+  hosts: local
+  connection: local
+  vars:
+    PROGRAM: "DEVSECOPS WITH AWS"
+    DURATION: 2
+    IS_LIVE: TRUE
+    DETAILS:
+      MONTHS:4
+      TRAINER: "MALLI ARUNKUMAR"
+    TOPICS:
+      - linux
+      - shell
+      - ansible  
+  tasks:
+  - name: print variable
+    ansible.builtin.debug:
+      msg: |
+       program: {{ PROGRAM }}
+
+       duration: {{ DURATION }}
+
+       Is live: {{ IS_LIVE }}
+
+       details: {{ DETAILS }}
+
+       topics: {{ TOPICS }} 
+        
