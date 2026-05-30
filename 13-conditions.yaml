@@ -1,0 +1,11 @@
+- name: check less than 10 or not
+  hosts: local
+  connection: local
+  vars:
+    number: 7
+  tasks:
+  - name: is ansible more than 5 number 
+    ansible.builtin.debug:
+     msg: "yes"
+    when: number > 5  
+
