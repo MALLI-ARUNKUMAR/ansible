@@ -1,0 +1,10 @@
+- name: conditions
+  hosts: local
+  connection: local
+  vars:
+    IS_LIVE: TRUE
+  tasks:
+  - name: check live or not
+    ansible.builtin.degug:
+      msg: "yes, it is live"
+    when:  IS_LIVE    
