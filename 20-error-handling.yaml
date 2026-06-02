@@ -9,3 +9,7 @@
   - name: print userput         
     ansible.builtin.debug:
       msg: "{{ user_output }}"
+
+  - name: creat user         
+    ansible.builtin.command: user add roboshop
+      when: user_output.rc != 0    
