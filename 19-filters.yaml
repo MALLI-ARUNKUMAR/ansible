@@ -3,6 +3,7 @@
   connection: local
   vars:
     topics: linux,shell,ansible
+    course: "Devops with Ansible"
     tags: 
       name: ansible
       project: roboshop
@@ -39,4 +40,12 @@
       student_yaml: "{{ lookup ('file','students.yaml') | from_yaml }}"
   - name: convert YAML to JSON
     ansible.builtin.debug:
-      msg: "{{ student_yaml | to_nice_json}}"            
+      msg: "{{ student_yaml | to_nice_json}}"   
+
+  - name: Convert to upper case
+    ansible.builtin.debug:
+      mag: "{{ course | upper }}"
+
+  - name: Convert to upper case
+    ansible.builtin.debug:
+      mag: "{{ course | lower }}"    
