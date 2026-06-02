@@ -1,7 +1,7 @@
 - name: error habdling
   hosts: local
   connection: local
-  taks:
+  tasks:
   - name: check user exits or not
     ansible.builtin.command: id roboshop
     register: user_output
