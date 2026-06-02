@@ -1,4 +1,4 @@
-- name: error habdling
+- name: error handling
   hosts: local
   connection: local
   become: yes
@@ -12,5 +12,5 @@
       msg: "{{ user_output }}"
 
   - name: creat user         
-    ansible.builtin.command: user add roboshop
+    ansible.builtin.command: useradd roboshop
       when: user_output.rc != 0    
