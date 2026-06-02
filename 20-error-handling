@@ -1,0 +1,11 @@
+- name: error habdling
+  hosts: local
+  connection: local
+  taks:
+  - name: check user exits or not
+    ansible.builtin.command: id roboshop
+    register: user_output
+
+  - name: print userput         
+    ansible.builtin.debug:
+      msg: "{{ user_output }}"
